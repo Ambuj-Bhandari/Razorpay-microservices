@@ -9,6 +9,7 @@ app:
     public-routes:
       - "/v1/auth/**"
       - "/webhook/**"
+      - "/actuator/**"
     trust-inbound-headers: false
   rate-limit:
     method: fixed
